@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<settings>	
+
+		<auto_play>
+			<defaults symbol="circular" /><!--倒计时按钮的位置-->
+			<tweenIn x="895" y="45" width="30" height="30" tint="0xFFFFFF" alpha="0.5"/>
+			<tweenOver alpha="1"/>
+		</auto_play>
+	
+		<prev_button><!--左右翻页按钮的位置-->				
+			<tweenIn x="865" y="300" width="30" height="30" alpha="0" />
+			<tweenOver alpha="0" />
+		</prev_button>
+		
+		<next_button>			
+			<tweenIn x="895" y="300" width="30" height="30" alpha="0" />
+			<tweenOver alpha="0" />
+		</next_button>
+		
+		<prev_symbol>
+			<defaults type="3" />
+			<tweenIn x="865" y="300" alpha="0.5"  />
+			<tweenOver time="0.15" x="860" scaleX="1.1" scaleY="1.1" />
+		</prev_symbol>
+			
+		<next_symbol>
+			<defaults type="3" />
+			<tweenIn x="895" y="300" alpha="0.5"/>
+			<tweenOver time="0.15" x="900" scaleX="1.1" scaleY="1.1" />
+		</next_symbol>		
+
+		<description>
+			<defaults 
+				round_corners="10, 10, 10, 10"					
+				heading_text_size="22"
+				heading_text_color="0xfc9900"	
+				paragraph_text_size="13"
+				paragraph_text_color="0xFFFFFF"					
+			/>
+			<tweenIn x="200" y="240" width="560" height="90" alpha="0.15" />
+			<tweenOver alpha="0.3"/>
+		</description>	
+	
+		<transitions
+			slicing="vertical" 
+			direction="down"
+			duration="0.6" 
+			delay="0.2"
+			cube_color="0x611811"
+		/>
+	
+	</settings>
+
+
+	<slides>
+	
+		<slide>
+			<url>images/slide_1.jpg</url>
+			<description>
+				
+				
+				<paragraph>无论是你，是他，还是我，当我们走进这个纷繁的世界时，心中都藏着一个美好的梦想。为了这个梦想，我们立下坚定的信念，我们有着不屈的意志和不懈的努力。</paragraph>
+			</description>	
+		</slide>
+		
+		<transition direction="left"/>		
+		
+		<slide>
+			<url>images/slide_2.jpg</url>
+			<description>
+			
+			
+				<paragraph>拥有梦想就有可能，每个人都天下无双。梦想就不怕张狂，行动激荡无限能量，梦想就是最好的奖赏。</paragraph>
+			</description>	
+		</slide>
+		
+		<transition duration="0.6" delay=".2" direction="down"/>		
+		
+		<slide>
+			<url>images/slide_3.jpg</url>
+			<description>
+			
+		
+				<paragraph>跟我来迎接风浪，就当是冲浪；跟我来展翅翱翔，逆风也飞翔；我相信只要坚持自己的主张，我们能让世界改变摸样，拥有梦想能让奇迹从天而降。</paragraph>
+			</description>	
+		</slide>	
+		
+		<transition num="3" slicing="horizontal" direction="left" delay="0.05"/>			
+		
+		<slide>
+			<url>images/slide_4.jpg</url>
+			<description>
+				
+				<paragraph>湛蓝的天空划一抹彩虹，在喧闹中积淀，信念是土壤封存中激荡，会璀璨的绽放，就算是踱步慢慢走，我不会停留我陪你走，跟我脚步这个节奏，向绚丽的梦。</paragraph>
+			</description>		
+		</slide>
+			
+		<transition num="3"/>		
+		
+		<slide>
+			<url>images/slide_5.jpg</url>
+			<description>
+					
+			
+				<paragraph>梦想无论怎么模糊，它总潜伏在我们心底，使我们的心境永远得不到宁静，直到梦想成为事实。</paragraph>
+			</description>	
+		</slide>	
+					
+		<transition  num="6" slicing="horizontal"  direction="right" duration="0.8"  delay="0.05" z_multiplier="5"/>	
+		
+		<slide>
+			<url>images/slide_6.jpg</url>
+			<description>
+				
+				
+				<paragraph>所有的一切，就是因为我们拥有着梦想，有着不屈的意志，有着坚定的信念！我们绝不会放弃，更不会抛弃，因为我们心中有梦，有着自己一个美好的梦，而这个梦是需要坚韧和不懈的努力。</paragraph>
+			</description>	
+		</slide>				
+		
+		<transition num="6" slicing="vertical" direction="down" shader="phong" delay="0.05"/>			
+		
+		<slide>
+			<url>images/slide_7.jpg</url>
+			<description>
+	
+		
+				<paragraph>没有一颗心会因为追求梦想而受伤，当你真心想要某样东西时，整个宇宙都会联合起来帮你完成。</paragraph>
+			</description>	
+		</slide>				
+		
+		<transition num="4" direction="down" slicing="horizontal" z_multiplier="6" delay="0.1"/>	
+		
+		<slide>
+			<url>images/slide_8.jpg</url>
+			<description>
+			
+			
+				<paragraph>用坚强做双翅膀，勇敢就是种锋芒。逆风也要飞翔，梦想是最好的信仰。把希望化成力量，让奇迹从天而降。</paragraph>
+			</description>	
+		</slide>				
+		
+		<transition num="4" direction="up" z_multiplier="2.5" delay="0.03"/>			
+		
+		<slide>
+			<url>images/slide_9.jpg</url>
+			<description>
+			
+				
+				<paragraph>人有了物质才能生存，人有了梦想才谈得上生活。你要了解生存与生活的不同吗？动物生存，而人则生活。</paragraph>
+			</description>	
+		</slide>				
+		
+		<transition direction="right"/>			
+		
+		<slide>
+			<url>images/slide_10.jpg</url>
+			<description>
+				
+		
+				<paragraph>放飞梦想，抹去悲伤，拥抱暖阳，让笑容留在脸上。放飞梦想，点亮希望。重新登场，做个潇洒的亮相。</paragraph>
+			</description>	
+		</slide>				
+		
+		<transition num="3" direction="up"/>	
+		
+		<slide>
+			<url>images/slide_11.jpg</url>	
+			<description>
+			
+				
+				<paragraph>我们为我们的梦想已经开始上路，已经走在路上，在这个路上将有更多的沟壑与荆棘在等待着我们，也有着更大的收获在等着我们。</paragraph>
+			</description>			
+		</slide>				
+			
+	</slides>
+</data>
+

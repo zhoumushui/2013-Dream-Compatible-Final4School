@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<settings>	
+
+		<auto_play>
+			<defaults symbol="circular" /><!--倒计时按钮的位置-->
+			<tweenIn x="895" y="45" width="30" height="30" tint="0xFFFFFF" alpha="0.5"/>
+			<tweenOver alpha="1"/>
+		</auto_play>
+	
+		<prev_button><!--左右翻页按钮的位置-->				
+			<tweenIn x="865" y="300" width="30" height="30" alpha="0" />
+			<tweenOver alpha="0" />
+		</prev_button>
+		
+		<next_button>			
+			<tweenIn x="895" y="300" width="30" height="30" alpha="0" />
+			<tweenOver alpha="0" />
+		</next_button>
+		
+		<prev_symbol>
+			<defaults type="3" />
+			<tweenIn x="865" y="300" alpha="0.5"  />
+			<tweenOver time="0.15" x="860" scaleX="1.1" scaleY="1.1" />
+		</prev_symbol>
+			
+		<next_symbol>
+			<defaults type="3" />
+			<tweenIn x="895" y="300" alpha="0.5"/>
+			<tweenOver time="0.15" x="900" scaleX="1.1" scaleY="1.1" />
+		</next_symbol>		
+
+		<description>
+			<defaults 
+				round_corners="10, 10, 10, 10"					
+				heading_text_size="22"
+				heading_text_color="0xfc9900"	
+				paragraph_text_size="13"
+				paragraph_text_color="0xFFFFFF"					
+			/>
+			<tweenIn x="200" y="240" width="560" height="90" alpha="0.15" />
+			<tweenOver alpha="0.3"/>
+		</description>	
+	
+		<transitions
+			slicing="vertical" 
+			direction="down"
+			duration="0.6" 
+			delay="0.2"
+			cube_color="0x611811"
+		/>
+	
+	</settings>
+
+
+	<slides>
+	
+		<slide>
+			<url>images/slide_1.jpg</url>
+			<description>
+				
+				
+				<paragraph>Whatever it is you, is he, and I, when we walk into this complicated world, is hidden in a beautiful dream. For this dream, we set a firm belief, we have the indomitable will and unremitting efforts.</paragraph>
+			</description>	
+		</slide>
+		
+		<transition direction="left"/>		
+		
+		<slide>
+			<url>images/slide_2.jpg</url>
+			<description>
+			
+			
+				<paragraph>Have a dream may be, everyone none such under heaven. Dream is not puffed up, action surges of infinite energy, dream is the best reward.</paragraph>
+			</description>	
+		</slide>
+		
+		<transition duration="0.6" delay=".2" direction="down"/>		
+		
+		<slide>
+			<url>images/slide_3.jpg</url>
+			<description>
+			
+		
+				<paragraph>Come with me and meet the waves, when surfing; tell me to fly, fly against the wind also; I believe that as long as you insist, we can make the world change touch kind, have dreams can make miracle drop from the clouds.</paragraph>
+			</description>	
+		</slide>	
+		
+		<transition num="3" slicing="horizontal" direction="left" delay="0.05"/>			
+		
+		<slide>
+			<url>images/slide_4.jpg</url>
+			<description>
+				
+				<paragraph>The blue sky is a rainbow, accumulated in the hubbub, faith is stirring soil sequestration, will bright bloom, even walking slowly, I won't stay I accompany you, with my feet to the rhythm, beautiful dream.</paragraph>
+			</description>		
+		</slide>
+			
+		<transition num="3"/>		
+		
+		<slide>
+			<url>images/slide_5.jpg</url>
+			<description>
+					
+			
+				<paragraph>Dream no matter how fuzzy, it is always lurking in our heart, our mood is never quiet, until the dream become a reality.</paragraph>
+			</description>	
+		</slide>	
+					
+		<transition  num="6" slicing="horizontal"  direction="right" duration="0.8"  delay="0.05" z_multiplier="5"/>	
+		
+		<slide>
+			<url>images/slide_6.jpg</url>
+			<description>
+				
+				
+				<paragraph>All in all, it is because we have a dream, with indomitable will, there is a firm belief! We will never give up, not abandoned, because we have a dream, have a beautiful dream, but the dream is tough and unremitting efforts.</paragraph>
+			</description>	
+		</slide>				
+		
+		<transition num="6" slicing="vertical" direction="down" shader="phong" delay="0.05"/>			
+		
+		<slide>
+			<url>images/slide_7.jpg</url>
+			<description>
+	
+		
+				<paragraph>There is no heart to pursue a dream because of injury, when you really want something, all the universe conspires to help you achieve.</paragraph>
+			</description>	
+		</slide>				
+		
+		<transition num="4" direction="down" slicing="horizontal" z_multiplier="6" delay="0.1"/>	
+		
+		<slide>
+			<url>images/slide_8.jpg</url>
+			<description>
+			
+			
+				<paragraph>With strong wings, brave is a cutting edge. The wind to fly, the dream is the best. The hope into power, let the miracle drop from the clouds.</paragraph>
+			</description>	
+		</slide>				
+		
+		<transition num="4" direction="up" z_multiplier="2.5" delay="0.03"/>			
+		
+		<slide>
+			<url>images/slide_9.jpg</url>
+			<description>
+			
+				
+				<paragraph>Man can survive, people have a dream only talk about life. You should know the difference between survival and life? Animal survival, and people life.</paragraph>
+			</description>	
+		</slide>				
+		
+		<transition direction="right"/>			
+		
+		<slide>
+			<url>images/slide_10.jpg</url>
+			<description>
+				
+		
+				<paragraph>The dream of flying, erase the sadness, embrace sunshine, let a smile in the face. The dream of flying, light of hope. Reenter, make a handsome appearance.</paragraph>
+			</description>	
+		</slide>				
+		
+		<transition num="3" direction="up"/>	
+		
+		<slide>
+			<url>images/slide_11.jpg</url>	
+			<description>
+			
+				
+				<paragraph>We for our dream has started on the road, has been walking on the road, in this way will have the gully and thorn more waiting for us, also have a greater harvest waiting for us.</paragraph>
+			</description>			
+		</slide>				
+			
+	</slides>
+</data>
+
